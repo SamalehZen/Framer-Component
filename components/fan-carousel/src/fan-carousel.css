@@ -1,0 +1,16 @@
+.fan-cap {
+  animation: fan-in 560ms cubic-bezier(.2,.75,.2,1) both;
+}
+@keyframes fan-in {
+  from { opacity: 0; transform: translateY(10px); filter: blur(5px); }
+  to   { opacity: 1; transform: none; filter: none; }
+}
+.fan-btn {
+  transition: transform .25s cubic-bezier(.2,.7,.2,1), opacity .25s;
+}
+.fan-btn:hover  { transform: scale(1.07); }
+.fan-btn:active { transform: scale(.93); }
+.fan-btn:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  .fan-cap { animation: none; }
+}

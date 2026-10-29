@@ -1,0 +1,19 @@
+{
+  "name": "framer-components",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reconstitutions 1:1 de composants Framer en React + CSS.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-demo.mjs fan-carousel",
+    "build:fan-carousel": "node scripts/build-demo.mjs fan-carousel"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
