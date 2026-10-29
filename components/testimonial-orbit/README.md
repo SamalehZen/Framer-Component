@@ -55,6 +55,8 @@ Aucune dépendance hors React. Le CSS est injecté par le composant (une seule b
 
 ## Démo
 
+En ligne : https://component.hypeer.cloud/testimonial-orbit/
+
 ```bash
 npm run build:testimonial-orbit
 npx serve components/testimonial-orbit/demo/dist

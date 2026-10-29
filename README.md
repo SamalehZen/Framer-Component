@@ -6,7 +6,7 @@ Chaque composant est autonome, mesuré contre le site d'origine et vérifié au 
 | Composant | Source | Démo | Fidélité |
 |---|---|---|---|
 | [Fan Carousel](components/fan-carousel/) | [cmsfancarousel.framer.website](https://cmsfancarousel.framer.website) | [component.hypeer.cloud](https://component.hypeer.cloud) | 99,994 % pixels |
-| [Testimonial Orbit](components/testimonial-orbit/) | [testimonialloom.framer.website](https://testimonialloom.framer.website) | `npm run build:testimonial-orbit` | 0 pixel d'écart hors dérive |
+| [Testimonial Orbit](components/testimonial-orbit/) | [testimonialloom.framer.website](https://testimonialloom.framer.website) | [component.hypeer.cloud/testimonial-orbit](https://component.hypeer.cloud/testimonial-orbit/) | 0 pixel d'écart hors dérive |
 
 ## Structure
 
