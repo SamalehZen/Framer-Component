@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build-demo.mjs fan-carousel",
-    "build:fan-carousel": "node scripts/build-demo.mjs fan-carousel"
+    "build:fan-carousel": "node scripts/build-demo.mjs fan-carousel",
+    "build:testimonial-orbit": "node scripts/build-demo.mjs testimonial-orbit"
   },
   "peerDependencies": {
     "react": ">=18"
